@@ -9,7 +9,9 @@ body {
     background-color: #000000;
     margin: 0 auto;
 
-
+image {
+    width: 350px;
+    height: 250px;
 }
 h1 {
     color: #eee;
