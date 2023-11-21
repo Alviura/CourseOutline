@@ -1,0 +1,29 @@
+main {
+    margin: 0 auto;
+    max-width: 50em;
+}
+body {
+    font-family: "Helvetica", "Arial", sans-serif;
+    line-height: 1.5;
+    padding: 4em 1em;
+    max-width: 50%;
+    background-color: #000000;
+    margin: 0 auto;
+
+
+}
+h1 {
+    color: #eee;
+}
+.quote {
+    color: rgb(19, 211, 147);
+}
+.p1, .p2, .p3{
+    font-size: 20px;
+    color: rgb(228, 237, 240);
+}
+#unit {
+    font-size: 20px;
+    color: #883131;
+
+}

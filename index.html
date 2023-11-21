@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="topics.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <img src="image.jpeg">
+    <p class="quote"><i>Bora Course Outline ~Albert Einstein</i></p>
+    <br>
+    <h1>Course Outline</h1>
+    <p class="p1">
+        Well, its almost time for the "Real Deal" of this semester, the ultimate pressure of the academic sesson.That's right Exams. 
+        So, are you prepared? Ok for me I would be capping if I said I'm ready for it(I'm dead ass not). So if you feel we are a bit even here, how are you 
+        preparing to start studing? (That is if you're still yet to begin).
+    </p>
+    <p class="p2">As the great scientist once said <i>"Bora course outline"</i> He really knew of what the future for comrades would look like.
+        Indeed his statement was time relative (Hii humour ni ya the chosen few ). Well comrades, I have something that might alleviate
+        your academic pressure.</p>
+    <p class="p3">This is a collection of MCS (Math & CompScie) units that I have atleast a complete overview of the lectures that you
+        have attended
+    </p>
+    <label id="unit">Select a Unit</label>
+    <select id="mySelect">
+        <option value="blank">Select unit</option>
+        <option value="Calculus III">Calculus III</option>
+        <option value="Operating System">Operating System</option>
+        <option value="Vector Analysis">Vector Analysis</option>
+      </select>
+      
+    <div id="infoDisplay"></div>
+      
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          const selectElement = document.getElementById('mySelect');
+          const infoDisplay = document.getElementById('infoDisplay');
+      
+          // Add an event listener to listen for changes in the select element
+          selectElement.addEventListener('change', function() {
+            // Get the selected value
+            const selectedValue = selectElement.value;
+      
+            // Display information based on the selected option
+            if (selectedValue === 'Calculus III') {
+              infoDisplay.textContent = 'Limits, continuity & differentiability';
+            } else if (selectedValue === 'Operating System') {
+              infoDisplay.textContent = 'Information about Option 2.';
+            } else if (selectedValue === 'Vector Anaysis') {
+              infoDisplay.textContent = 'If you find it send me too ..lol.';
+            } else {
+              infoDisplay.textContent = ''; // Clear the info display if no option selected
+            }
+          });
+        });
+      </script>
+      
+      
+</body>
+</html>
