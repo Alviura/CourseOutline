@@ -1,6 +1,11 @@
 main {
-    margin: 0 auto;
+    width:80%;
+    height:100px;
+   	display:flex;
+    justify-content: center;
+    align-items: center;
 }
+
 body {
     font-family: "Helvetica", "Arial", sans-serif;
     line-height: 1.5;
@@ -8,7 +13,7 @@ body {
     max-width: 50%;
     background-color: #000000;
     margin: 0 auto;
-
+}
 image {
     width: 350px;
     height: 250px;
