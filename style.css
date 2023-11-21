@@ -22,8 +22,31 @@ h1 {
     font-size: 20px;
     color: rgb(228, 237, 240);
 }
-#unit {
-    font-size: 20px;
+.p4 {
+    color:aliceblue;
+    position: relative;
+}
+br {
+    color:azure;
+}
+#options {
+    font-size: 18px;
     color: #883131;
+
+}
+#label {
+    color:aqua;
+    font-size: 19px;
+}
+#listDisplay {
+    background-color: azure;
+    border-radius: 0.5em;
+    line-height: 1.5;
+    font-size: 18px;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    border-width: 1em;
+    border-color:aqua;
+    max-width: 40%;
 
 }
