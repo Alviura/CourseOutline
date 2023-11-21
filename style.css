@@ -13,11 +13,10 @@ body {
     padding: 4em 1em;
     background-color: #000000;
     margin: 0 auto;
-    max-width: 50px;
 }
 image {
-    width: 30px;
-    height: 30px;
+    width: 0px;
+    height: 0px;
 }
 h1 {
     color: #eee;
