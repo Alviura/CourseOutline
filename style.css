@@ -10,7 +10,7 @@ body {
     background-color: #000000;
     margin: 0 auto;
     max-width: 50%;
-    align-text: center;
+    align-items: center;
 }
 img {
     width: 10px;
