@@ -1,6 +1,6 @@
 main {
-    align-items: center;
-    margin: 0 auto;
+/*     align-items: center;
+    margin: 0 auto; */
 }
 
 body {
@@ -8,8 +8,8 @@ body {
     line-height: 1.5;
     padding: 4em 1em;
     background-color: #000000;
-    margin: 0 auto;
-    max-width: 90%;
+/*     margin: 0 auto;
+    max-width: 90%; */
 /*     align-items: center;
 /*     display:flex; */
     justify-content: center */
